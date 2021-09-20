@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+   <!-- <group android:id="@+id/line1">
+        <item android:id="@+id/send_file" android:title="@string/menu_send"
+            />
+    </group>-->
+ <!--  <group android:id="@+id/line2">
+       <item android:id="@+id/open_file" android:title="@string/menu_open" />
+   </group>-->
+ <!--  <group android:id="@+id/line3">
+       <item  android:id="@+id/share_file" android:title="@string/menu_share"/>
+   </group>
+-->
+</menu>

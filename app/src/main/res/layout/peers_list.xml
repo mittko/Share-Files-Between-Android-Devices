@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/peers_parent_layout">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/founded_devices"
+        android:gravity="center"
+        android:background="@drawable/view_border"
+        android:layout_alignParentTop="true"
+        android:id="@+id/foundedDevicesTitle"
+        />
+    <ScrollView
+           android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/searchDevicesButton"
+        android:layout_below="@id/foundedDevicesTitle"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/peers_container"
+            android:orientation="vertical"/>
+    </ScrollView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/searchDevicesProgressBar"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/stop_search_devices"
+        android:id="@+id/searchDevicesButton"
+        android:layout_alignParentBottom="true"
+        android:onClick="stopOrStartHelloThread"
+        />
+</RelativeLayout>

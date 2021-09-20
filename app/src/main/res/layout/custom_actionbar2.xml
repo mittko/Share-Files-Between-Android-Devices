@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@drawable/top_navigation"
+    >
+
+    <ImageView
+        android:id="@+id/video_tab"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.25"
+        android:background="@drawable/clicktextview"
+        android:onClick="onSelectPage"
+        />
+
+    <ImageView
+        android:id="@+id/image_tab"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.25"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/clicktextview"
+        android:onClick="onSelectPage"
+        />
+
+    <ImageView
+        android:id="@+id/music_tab"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.25"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/clicktextview"
+        android:onClick="onSelectPage"
+        />
+
+    <ImageView
+        android:id="@+id/document_tab"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.25"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/clicktextview"
+        android:onClick="onSelectPage"
+        />
+</LinearLayout>

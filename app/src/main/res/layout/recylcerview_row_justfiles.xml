@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraint_layout_recyclerview_row"
+    android:background="@drawable/clickable_row"
+    >
+
+    <ImageView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/file_text_view"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constrainedWidth="true"
+        app:layout_constrainedHeight="true"
+        android:contentDescription="key image here"
+        android:id="@+id/thumbnail_image_view"
+        android:scaleType="centerInside"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constrainedWidth="true"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/thumbnail_image_view"
+        android:id="@+id/file_text_view"
+        android:gravity="top|start"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text="image descritption"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

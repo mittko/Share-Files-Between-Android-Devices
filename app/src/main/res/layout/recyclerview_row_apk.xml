@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintDimensionRatio="100:20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/clickable_row"
+        android:weightSum="1"
+        android:id="@+id/linearlayout_recyvlerview_row4"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:id="@+id/file_textview4"
+            android:gravity="top|start"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:ellipsize="end"
+            android:lines="2"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:id="@+id/thumbnail_imageview4"
+            android:contentDescription="@string/thumbnail"
+            android:scaleType="centerInside"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

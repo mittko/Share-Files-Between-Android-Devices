@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/tab_pressed</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="selected_row">#D1DDFF</color><!---->
+
+    <color name="tab_pressed">#2679FF</color><!---->
+    <color name="start_gradient_color">#00137F</color>
+    <color name="end_gradient_color">#8CD4FF</color>
+
+
+    <color name="button_pressed">#8266CC</color>
+
+    <color name="start_color">#4800FF</color>
+
+    <color name="light_grey">#C0C0C0</color>
+   <color name="progress_green">#1AA155</color>
+    <color name="actionbar_color">#707070</color>
+</resources>

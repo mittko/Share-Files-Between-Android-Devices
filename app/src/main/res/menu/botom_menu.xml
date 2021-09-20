@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home_apk"
+        android:icon="@drawable/applications"
+        android:title="apps"
+        />
+    <item
+        android:id="@+id/home_video"
+        android:icon="@drawable/video"
+        android:title="video" />
+    <item
+        android:id="@+id/home_image"
+        android:icon="@drawable/image"
+        android:title="image"
+        />
+    <item
+        android:id="@+id/home_audio"
+        android:icon="@drawable/audio_"
+        android:title="audio" />
+    <item
+        android:id="@+id/home_document"
+        android:icon="@drawable/document_"
+        android:title="document" />
+</menu>
